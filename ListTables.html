@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables amd Lists</title>
+</head>
+
+<body>
+    <ul type="square">
+        <!-- "ul" stands for Unoreder List and type specifies the type of bullets -->
+        <li>This is first item </li>
+        <li>This is Second item </li>
+        <ul type="circle">
+            <li>This is NEsted List</li>
+        </ul>
+        <!-- We can also create a nested list and specify the bullet shape -->
+        <li>This is Third item </li>
+    </ul>
+    <ol type="circle">
+        <!-- "ol" stands for Ordered List -->
+        <!-- in ordered list the types are different from the unordered list -->
+        <li>This is my First Ordered List</li>
+        <ol type="A">
+            <li>
+                THis is the first Nested Ordered List
+            </li>
+            <li>
+                This is my secodn ordered List
+            </li>
+        </ol>
+        <li>This is my Second Ordered List</li>
+    </ol>
+    <!-- Tables -->
+    <h2>HTML Table</h2>
+    <!-- header size which varies from h1 to h6 -->
+    <!-- has two main compontes i.e., "Head" and "Table" -->
+    <table>
+        <!-- a tag to call a table function -->
+        <thead>
+            <!-- SPecifies the contents to be written in Top of the table -->
+            <tr>
+                <!-- start a row for the table "tr" -->
+                <th>Name</th>
+                <!-- contents to be written in the head row -->
+                <th>Employee ID</th>
+                <th>Employee Role</th>
+                <th>Experience</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <!-- tbody in which the contents of body like all the features mentioned below -->
+            <tr>
+                <td>Harry</td>
+                <td>ID001</td>
+                <td>VLSI Engineer</td>
+                <td>2 years</td>
+            </tr>
+            <tr>
+                <td>Ruman</td>
+                <td>ID002</td>
+                <td>Android Engineer</td>
+                <td>1.5 years</td>
+            </tr>
+            <tr>
+                <td>harsh</td>
+                <td>ID003</td>
+                <td>CAD Engineer</td>
+                <td>5 years</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
